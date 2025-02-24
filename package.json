@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "imports": {
+    "#*": "./lib/*"
+  },
+  "dependencies": {
+    "@monorepo/lib": "*",
+    "typescript": "5.7.3"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "node:relative": "node --experimental-strip-types relative.ts",
+    "node:relative-js": "node --experimental-strip-types relative-js.ts",
+    "node:subpath-export": "node --experimental-strip-types subpath-export.ts",
+    "node:subpath-export-js": "node --experimental-strip-types subpath-export-js.ts",
+    "node:subpath-import": "node --experimental-strip-types subpath-import.ts",
+    "node:subpath-import-js": "node --experimental-strip-types subpath-import-js.ts"
+  },
+  "workspaces": ["lib"]
+}

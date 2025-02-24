@@ -1,0 +1,7 @@
+{
+  "name": "@monorepo/lib",
+  "type": "module",
+  "exports": {
+    "./*": "./*"
+  }
+}

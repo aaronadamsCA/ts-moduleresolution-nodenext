@@ -1,0 +1,10 @@
+{
+  "include": ["**/*"],
+  "compilerOptions": {
+    "noEmit": true,
+    "target": "esnext",
+    "module": "nodenext",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true
+  }
+}
